@@ -315,7 +315,7 @@ header h1 {
 }
 
 .contact-info a:hover {
-  color: #388e3c; /* لون أخضر داكن عند التمرير */
+  color: #388e3c; 
   text-decoration: underline;
 }
 
@@ -327,14 +327,14 @@ header h1 {
   display: inline-block;
   margin: 0 10px;
   font-size: 1.5rem;
-  color: #4caf50; /* لون أخضر أساسي للأيقونات */
+  color: #4caf50; 
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icon:hover {
   transform: scale(1.2);
-  color: #1b5e20; /* لون أخضر غامق عند التمرير */
+  color: #1b5e20; 
 }
 
 
@@ -350,7 +350,7 @@ header h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* المقال */
+
 .news-article {
   margin-bottom: 20px;
 }
@@ -420,7 +420,7 @@ header h1 {
   border-radius: 10px;
 }
 
-/* الفوتر */
+
 .news-footer {
   display: flex;
   justify-content: space-between;
@@ -455,5 +455,3 @@ header h1 {
   color:#555;
   font-size: 1em;
 }
-
-
