@@ -455,3 +455,74 @@ header h1 {
   color:#555;
   font-size: 1em;
 }
+
+@media (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main {
+    padding: 100px 20px;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card .imag {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    padding: 120px 30px;
+  }
+
+  .cards {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .container-about {
+    padding: 20px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .main {
+    padding: 150px 100px;
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .card .imag {
+    width: 40%;
+  }
+
+  .container-about {
+    max-width: 900px;
+  }
+}
